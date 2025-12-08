@@ -1,0 +1,57 @@
+<!--Calculadora de notas
+Usuario inseri  notas de provas e trabalhos
+O sistema calcula média e mostra se está aprovado ou precisa de recuperação
+Grafico simples mostrando evolução das notas
+Lógica e manipulação de dados-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <title>NotaFácil</title>
+</head>
+    <header>
+        <h1>🔢NotaFácil</h1>
+        <p>Calculadora Universitária</p>
+    </header>
+    
+    <main class="container">
+        <h2>Vamos calcular sua média</h2>
+        <section>
+        <div id="p1">
+            <input type="number" id="prova1" placeholder="Nota da prova P1"  step="0.01">
+            <input type="number" id="trabalho1" placeholder="Nota do Trabalho P1" step="0.01">
+        </div>
+
+        <div id="p2">
+            <input type="number" id="prova2" placeholder="Nota da prova P2" step="0.01">
+            <input type="number" id="trabalho2" placeholder="Nota do Trabalho P2" step="0.01">
+        </div>
+
+        <div id="button">
+            <button onclick="calcular()">Calcular Média</button>
+        </div>
+    </section>
+        
+ 
+    <div id="resultado"></div>
+   
+        
+    </main>
+<body>
+    <script src="script.js"></script>
+    <footer>
+        <div class="credito">
+            <p>&copy;Todos os direitos reservados.
+            <p class="desenvolvimento">Desenvolvido por aluno do 3° Periodo - Engenharia de Software | Versão 1.0</p>
+        </div>
+        <div>
+
+        </div>
+    </footer>
+</body>
+</html>
