@@ -10,7 +10,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    overflow-x: hidden;
+
 }
 
 header {
@@ -23,7 +24,10 @@ header {
 main {
 
     flex: 1;
+    flex-wrap: wrap;
     padding-top: 50px;
+    
+    
 }
 
 .container {
@@ -45,6 +49,9 @@ section {
     height: 230px;
     width: 500px;
     border-radius: 4px;
+    margin-left: 20px;
+    margin-right: 20px;
+
 }
 
 input {
