@@ -90,10 +90,13 @@ button {
 }
 
 footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     background-color: #F9F9F9;
     text-align: center;
     padding: 10px;
-    margin-top: 30px;
+    
 }
 
 
