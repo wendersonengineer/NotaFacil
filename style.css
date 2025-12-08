@@ -29,8 +29,10 @@ main {
 .container {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-items: center;
     gap: 20px;
+    
     
 }
 
@@ -38,6 +40,7 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
     padding: 40px;
     background-color: #1e7aab;
