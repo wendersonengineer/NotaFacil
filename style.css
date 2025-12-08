@@ -25,6 +25,7 @@ main {
 
     flex: 1;
     padding-top: 50px;  
+  
 }
 
 .container {
@@ -41,20 +42,20 @@ section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+    flex-wrap: wrap;
     gap: 15px;
     padding: 40px;
     background-color: #1e7aab;
-    height: 230px;
-    width: 500px;
+    
     border-radius: 4px;
     
 }
 
 input {
+
     text-align: center;
     height: 40px;
-    width: 200px;
+    width: 150px;
     padding: 5px;
     border-radius: 4px;
     border: 0.5px solid gray;
@@ -92,13 +93,8 @@ footer {
     background-color: #F9F9F9;
     text-align: center;
     padding: 20px;
-    width: 100%;
+    padding-top: 40px;
 }
 
-
-
-.desenvolvimento {
-    opacity: 0.7;
-}
 
 
